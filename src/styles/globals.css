@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    @apply flex;
+    @apply w-full h-[100vh];
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply flex-1;
+    @apply bg-gray-200;
+    @apply bg-hero-patter bg-no-repeat bg-center bg-cover;
+
+    font-weight: normal;
+    /* font-size: calc(1rem / 16 * 12); */
+    letter-spacing: 0em;
+
+    overflow: overlay;
+    scrollbar-width: none;
+    
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothign: grayscale;
+  }
+}
