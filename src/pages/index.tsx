@@ -45,7 +45,7 @@ const Home: NextPage = () => {
             skinTone="light"
           />
         </div>
-        <h1 className="font-bold text-xl inline-block bg-gray-800 text-white p-[0.3em_0.6em] rounded-full border-2 border-gray-100 backdrop-blur backdrop-saturate-150 backdrop-contrast-150">
+        <h1 className="font-bold text-xl inline-block bg-gray-800 text-white p-[0.3em_1em] rounded-full border-2 border-gray-100 backdrop-blur backdrop-saturate-150 backdrop-contrast-150">
           Liz Midlej Silva
         </h1>
       </header>
