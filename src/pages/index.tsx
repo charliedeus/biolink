@@ -21,7 +21,7 @@ const Home: NextPage = () => {
       </Head>
 
       <header className="w-full text-center flex flex-col items-center">
-        <div className="w-[12em] h-[12em]">
+        <div className="w-[16em] h-[16em]">
           <BigHead
             accessory="roundGlasses"
             body="chest"
@@ -50,7 +50,7 @@ const Home: NextPage = () => {
         </h1>
       </header>
 
-      <ul className="p-8 m-auto">
+      <ul className="p-8 m-auto w-full max-w-[375px]">
         <li className="bg-gray-50 backdrop-blur backdrop-saturate-150 backdrop-contrast-150 rounded-[10em] p-[1em] m-[1.4em_0]">
           <Link href="/">
             <a className="flex items-center justify-center gap-2">
