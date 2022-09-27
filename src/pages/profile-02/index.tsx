@@ -1,15 +1,11 @@
 import type { NextPage } from 'next'
-import Head from 'next/head'
 
-import { BigHead } from '@bigheads/core'
 import {
   WhatsappLogo,
-  TwitterLogo,
   YoutubeLogo,
   InstagramLogo,
   EnvelopeSimple,
   FacebookLogo,
-  House,
 } from 'phosphor-react'
 import Link from 'next/link'
 
@@ -32,51 +28,61 @@ const Profile_02: NextPage = () => {
           </p>
         </div>
 
-        <button className="bg-secondary text-white text-sm px-6 py-2 rounded-lg">
+        <button className="bg-secondary text-white text-sm px-6 py-2 rounded-lg hover:opacity-90 hover:brightness-10">
           Fale comigo
         </button>
       </header>
 
       <main className="w-full flex-1">
         <ul className="w-full h-full flex flex-1 flex-col gap-4 transition-colors duration-100 ease-in-out">
-          <li className="w-full h-full py-4 rounded-2xl bg-primary hover:opacity-90 hover:brightness-30 hover:font-bold hover:bg-secondary hover:text-white">
+          <li className="w-full py-4 rounded-2xl bg-primary group hover:opacity-90 hover:brightness-30 hover:bg-secondary hover:text-white">
             <Link href="/">
-              <a className="w-full h-full flex items-center justify-center px-16">
-                <WhatsappLogo size={24} weight="light" />
+              <a className="w-full h-full flex items-center justify-center px-8">
+                <div className="bg-secondary group-hover:bg-primary group-hover:text-pink-700 p-2 text-white rounded-full">
+                  <WhatsappLogo size={24} weight="light" />
+                </div>
                 <span className="flex-1 text-center text-sm">WhatsApp</span>
               </a>
             </Link>
           </li>
-          <li className="w-full py-4 rounded-2xl bg-primary hover:opacity-90 hover:brightness-30 hover:font-bold hover:bg-secondary hover:text-white">
+          <li className="w-full py-4 rounded-2xl bg-primary group hover:opacity-90 hover:brightness-30 hover:bg-secondary hover:text-white">
             <Link href="/">
-              <a className="w-full h-full flex items-center justify-center px-16">
-                <InstagramLogo size={24} weight="light" />
+              <a className="w-full h-full flex items-center justify-center px-8">
+                <div className="bg-secondary group-hover:bg-primary group-hover:text-pink-700 p-2 text-white rounded-full">
+                  <InstagramLogo size={20} weight="light" />
+                </div>
                 <span className="flex-1 text-center text-sm">
                   Meu Instagram
                 </span>
               </a>
             </Link>
           </li>
-          <li className="w-full py-4 rounded-2xl bg-primary hover:opacity-90 hover:brightness-30 hover:font-bold hover:bg-secondary hover:text-white">
+          <li className="w-full py-4 rounded-2xl bg-primary group hover:opacity-90 hover:brightness-30 hover:bg-secondary hover:text-white">
             <Link href="/">
-              <a className="w-full h-full flex items-center justify-center px-16">
-                <YoutubeLogo size={24} weight="light" />
+              <a className="w-full h-full flex items-center justify-center px-8">
+                <div className="bg-secondary group-hover:bg-primary group-hover:text-pink-700 p-2 text-white rounded-full">
+                  <YoutubeLogo size={24} weight="light" />
+                </div>
                 <span className="flex-1 text-center text-sm">Meu Youtube</span>
               </a>
             </Link>
           </li>
-          <li className="w-full py-4 rounded-2xl bg-primary hover:opacity-90 hover:brightness-30 hover:font-bold hover:bg-secondary hover:text-white">
+          <li className="w-full py-4 rounded-2xl bg-primary group hover:opacity-90 hover:brightness-30 hover:bg-secondary hover:text-white">
             <Link href="/">
-              <a className="w-full h-full flex items-center justify-center px-16">
-                <FacebookLogo size={24} weight="light" />
+              <a className="w-full h-full flex items-center justify-center px-8">
+                <div className="bg-secondary group-hover:bg-primary group-hover:text-pink-700 p-2 text-white rounded-full">
+                  <FacebookLogo size={24} weight="light" />
+                </div>
                 <span className="flex-1 text-center text-sm">Meu Facebook</span>
               </a>
             </Link>
           </li>
-          <li className="w-full py-4 rounded-2xl bg-primary hover:opacity-90 hover:brightness-30 hover:font-bold hover:bg-secondary hover:text-white">
+          <li className="w-full py-4 rounded-2xl bg-primary group hover:opacity-90 hover:brightness-30 hover:bg-secondary hover:text-white">
             <Link href="/">
-              <a className="w-full h-full flex items-center justify-center px-16">
-                <EnvelopeSimple size={24} weight="light" />
+              <a className="w-full h-full flex items-center justify-center px-8">
+                <div className="bg-secondary group-hover:bg-primary group-hover:text-pink-700 p-2 text-white rounded-full">
+                  <EnvelopeSimple size={24} weight="light" />
+                </div>
                 <span className="flex-1 text-center text-sm">Meu E-mail</span>
               </a>
             </Link>
