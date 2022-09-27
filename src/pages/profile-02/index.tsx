@@ -38,44 +38,46 @@ const Profile_02: NextPage = () => {
       </header>
 
       <main className="w-full flex-1">
-        <ul className="w-full h-full flex flex-1 flex-col gap-4">
-          <li className="w-full py-4 rounded-2xl bg-primary">
+        <ul className="w-full h-full flex flex-1 flex-col gap-4 transition-colors duration-100 ease-in-out">
+          <li className="w-full h-full py-4 rounded-2xl bg-primary hover:opacity-90 hover:brightness-30 hover:font-bold hover:bg-secondary hover:text-white">
             <Link href="/">
-              <a className="flex items-center justify-center px-16">
+              <a className="w-full h-full flex items-center justify-center px-16">
                 <WhatsappLogo size={24} weight="light" />
-                <span className="flex-1 text-center">WhatsApp</span>
+                <span className="flex-1 text-center text-sm">WhatsApp</span>
               </a>
             </Link>
           </li>
-          <li className="w-full py-4 rounded-2xl bg-primary">
+          <li className="w-full py-4 rounded-2xl bg-primary hover:opacity-90 hover:brightness-30 hover:font-bold hover:bg-secondary hover:text-white">
             <Link href="/">
-              <a className="flex items-center justify-center px-16">
+              <a className="w-full h-full flex items-center justify-center px-16">
                 <InstagramLogo size={24} weight="light" />
-                <span className="flex-1 text-center">Meu Instagram</span>
+                <span className="flex-1 text-center text-sm">
+                  Meu Instagram
+                </span>
               </a>
             </Link>
           </li>
-          <li className="w-full py-4 rounded-2xl bg-primary">
+          <li className="w-full py-4 rounded-2xl bg-primary hover:opacity-90 hover:brightness-30 hover:font-bold hover:bg-secondary hover:text-white">
             <Link href="/">
-              <a className="flex items-center justify-center px-16">
+              <a className="w-full h-full flex items-center justify-center px-16">
                 <YoutubeLogo size={24} weight="light" />
-                <span className="flex-1 text-center">Meu Youtube</span>
+                <span className="flex-1 text-center text-sm">Meu Youtube</span>
               </a>
             </Link>
           </li>
-          <li className="w-full py-4 rounded-2xl bg-primary">
+          <li className="w-full py-4 rounded-2xl bg-primary hover:opacity-90 hover:brightness-30 hover:font-bold hover:bg-secondary hover:text-white">
             <Link href="/">
-              <a className="flex items-center justify-center px-16">
+              <a className="w-full h-full flex items-center justify-center px-16">
                 <FacebookLogo size={24} weight="light" />
-                <span className="flex-1 text-center">Meu Facebook</span>
+                <span className="flex-1 text-center text-sm">Meu Facebook</span>
               </a>
             </Link>
           </li>
-          <li className="w-full py-4 rounded-2xl bg-primary">
+          <li className="w-full py-4 rounded-2xl bg-primary hover:opacity-90 hover:brightness-30 hover:font-bold hover:bg-secondary hover:text-white">
             <Link href="/">
-              <a className="flex items-center justify-center px-16">
+              <a className="w-full h-full flex items-center justify-center px-16">
                 <EnvelopeSimple size={24} weight="light" />
-                <span className="flex-1 text-center">Meu E-mail</span>
+                <span className="flex-1 text-center text-sm">Meu E-mail</span>
               </a>
             </Link>
           </li>

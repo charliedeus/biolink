@@ -1,16 +1,5 @@
 import type { NextPage } from 'next'
-import Head from 'next/head'
 
-import { BigHead } from '@bigheads/core'
-import {
-  WhatsappLogo,
-  TwitterLogo,
-  YoutubeLogo,
-  InstagramLogo,
-  EnvelopeSimple,
-  FacebookLogo,
-  House,
-} from 'phosphor-react'
 import Link from 'next/link'
 
 const Home: NextPage = () => {
